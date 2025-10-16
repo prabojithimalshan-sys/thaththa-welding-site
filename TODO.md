@@ -1,8 +1,7 @@
-# Welding Shop Website Development Plan
+# TODO: Create About Page
 
-## Tasks
-- [x] Create index.html with full structure: navigation, hero section, services, gallery, contact, back to top button
-- [x] Create style.css with black/silver/orange theme, Oswald font, responsive design, CSS animations for hero sparks
-- [x] Create app.js for smooth scrolling navigation, back to top functionality, contact form handling
-- [x] Test responsiveness and preview the site
-- [x] Add 3D effects and video to gallery section
+- [x] Add "About" link to navigation in index.html
+- [x] Add new "About" section to index.html with content about the welding shop
+- [x] Add styles for the about section in style.css
+- [x] Update responsive styles for about section
+- [x] Test the about section by opening the site in browser

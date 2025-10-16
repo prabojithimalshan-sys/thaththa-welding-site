@@ -170,6 +170,24 @@ section {
     padding: 5rem 0;
 }
 
+/* About */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -331,6 +349,10 @@ h2 {
 
     .nav-links {
         display: none; /* For simplicity, hiding nav links on mobile. Could add hamburger menu */
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
     }
 
     .contact-content {
