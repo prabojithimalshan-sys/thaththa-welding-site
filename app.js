@@ -51,6 +51,6 @@ window.addEventListener('scroll', () => {
     if (window.pageYOffset > 100) {
         navbar.style.backgroundColor = 'rgba(0, 0, 0, 1)';
     } else {
-        navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+        navbar.style.backgroundColor = 'rgba(0, 110, 255, 1)';
     }
 });
